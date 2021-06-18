@@ -16,10 +16,12 @@
             <option value="$PROJECT_DIR$/Aptitude Test" />
             <option value="$PROJECT_DIR$/Ask" />
             <option value="$PROJECT_DIR$/Career Predictor" />
+            <option value="$PROJECT_DIR$/Career Predictor 2" />
             <option value="$PROJECT_DIR$/Contact Us" />
             <option value="$PROJECT_DIR$/Feedback" />
             <option value="$PROJECT_DIR$/Home" />
             <option value="$PROJECT_DIR$/Logo" />
+            <option value="$PROJECT_DIR$/Refer_A_Friend" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

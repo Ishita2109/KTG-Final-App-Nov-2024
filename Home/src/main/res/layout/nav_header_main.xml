@@ -15,7 +15,7 @@
     <TextView
         android:layout_width="224dp"
         android:layout_height="wrap_content"
-        android:text="Ishita Chandra"
+        android:text="Ishita"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24dp" />

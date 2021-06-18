@@ -12,7 +12,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.navigationtry.LoadPage;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -36,7 +35,7 @@ public class Signup_form extends AppCompatActivity {
         mFullName = findViewById(R.id.FullName);
         mEmail = findViewById(R.id.Email);
         mPassword = findViewById(R.id.Password);
-        mPhone = findViewById(R.id.Phone);
+
         mRegisterBtn = findViewById(R.id.RegistrationBtn);
         mLoginBtn = findViewById(R.id.button_send);
 

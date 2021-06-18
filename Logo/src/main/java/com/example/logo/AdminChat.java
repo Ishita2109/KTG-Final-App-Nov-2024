@@ -40,6 +40,36 @@ public class AdminChat extends AppCompatActivity
         LinearLayoutManager manager = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
         recyclerView.setLayoutManager(manager);
 
+        MessageChatModel model1 = new MessageChatModel(
+                "Hello ",
+                "02:30 PM",
+                1
+        );
+        MessageChatModel model2 = new MessageChatModel(
+                "Good afternoon ",
+                "02:00 PM",
+                0
+        );
+        MessageChatModel model3 = new MessageChatModel(
+                "I want to ask something?",
+                "02:10 PM",
+                1
+        );
+        MessageChatModel model4 = new MessageChatModel(
+                "Yes, please tell me how can i help you?",
+                "02:12 PM",
+                0
+        );
+        MessageChatModel model5 = new MessageChatModel(
+                "Nah, I dunno. Play soccer.. or learn more coding perhaps?",
+                "02:13 PM",
+                1
+        );
+
+
+
+        messageChatModelList.add(model1);
+
 
 
 

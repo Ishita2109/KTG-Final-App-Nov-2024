@@ -12,7 +12,7 @@
             android:icon="@drawable/ic_baseline_info_24"/>
 
         <item
-            android:id="@+id/settings"
+            android:id="@+id/refer"
             android:title="Refer A Friend"
             android:icon="@drawable/ic_baseline_share_24"/>
 

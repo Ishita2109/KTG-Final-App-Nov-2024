@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.predictor">
+    package="com.example.career_predictor">
 
     <application
         android:allowBackup="true"
@@ -11,20 +11,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Predictor"
         tools:replace="android:theme">
-        <activity android:name=".Clinical_Psycho"></activity>
-        <activity android:name=".Counsellor" />
-        <activity android:name=".Psychologist" />
-        <activity android:name=".Journalist" />
-        <activity android:name=".Archivist" />
-        <activity android:name=".Teacher" />
-        <activity android:name=".Consultant" />
-        <activity android:name=".Manager" />
-        <activity android:name=".Statistician" />
-        <activity android:name=".Financial_Analyst" />
-        <activity android:name=".Auditor" />
-        <activity android:name=".Career_Data" />
-        <activity android:name=".Loading" />
-        <activity android:name=".Career_Predictor">
+        <activity android:name="com.example.career_predictor.Clinical_Psycho"></activity>
+        <activity android:name="com.example.career_predictor.Counsellor" />
+        <activity android:name="com.example.career_predictor.Psychologist" />
+        <activity android:name="com.example.career_predictor.Journalist" />
+        <activity android:name="com.example.career_predictor.Archivist" />
+        <activity android:name="com.example.career_predictor.Teacher" />
+        <activity android:name="com.example.career_predictor.Consultant" />
+        <activity android:name="com.example.career_predictor.Manager" />
+        <activity android:name="com.example.career_predictor.Statistician" />
+        <activity android:name="com.example.career_predictor.Financial_Analyst" />
+        <activity android:name="com.example.career_predictor.Auditor" />
+        <activity android:name="com.example.career_predictor.Career_Data" />
+        <activity android:name="com.example.career_predictor.Loading" />
+        <activity android:name="com.example.career_predictor.Career_Predictor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

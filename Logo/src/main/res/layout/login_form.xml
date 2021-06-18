@@ -79,7 +79,7 @@
         android:textColor="#ffffff"
         android:textSize="30sp"
 
-        />
+        app:backgroundTint="#1A237E" />
 
 
     <Button
@@ -89,11 +89,12 @@
         android:layout_marginLeft="65dp"
         android:layout_marginTop="60dp"
         android:background="@drawable/button_rounded"
-         android:onClick="btn_signupForm"
+        android:onClick="btn_signupForm"
         android:text="I'M NEW HERE"
         android:textAllCaps="false"
         android:textColor="#ffffff"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        app:backgroundTint="#1A237E" />
 
 
 

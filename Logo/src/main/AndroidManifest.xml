@@ -5,17 +5,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LOGO"
         tools:replace="android:theme">
-        <activity android:name=".AdminChat"></activity>
-        <activity android:name=".Admin" />
-        <activity android:name=".Signup_form" />
-        <activity android:name=".login_form" />
-        <activity android:name=".Walk" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.logo.AdminChatSimran"></activity>
+        <activity android:name="com.example.logo.AdminChat"></activity>
+        <activity android:name="com.example.logo.Admin" />
+        <activity android:name="com.example.logo.Signup_form" />
+        <activity android:name="com.example.logo.login_form" />
+        <activity android:name="com.example.logo.Walk" />
+        <activity android:name="com.example.logo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

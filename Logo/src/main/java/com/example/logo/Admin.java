@@ -23,4 +23,8 @@ public class Admin extends AppCompatActivity {
     public void btn_logout(View view) {
         startActivity(new Intent(getApplicationContext(), login_form.class));
     }
+
+    public void btn_sidd(View view) {
+        startActivity(new Intent(getApplicationContext(), AdminChatSimran.class));
+    }
 }

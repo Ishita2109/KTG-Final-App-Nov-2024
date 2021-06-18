@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LOGO.iml" filepath="$PROJECT_DIR$/.idea/modules/LOGO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AboutUs/LOGO.AboutUs.iml" filepath="$PROJECT_DIR$/.idea/modules/AboutUs/LOGO.AboutUs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aptitude Test/LOGO.Aptitude_Test.iml" filepath="$PROJECT_DIR$/.idea/modules/Aptitude Test/LOGO.Aptitude_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ask/LOGO.Ask.iml" filepath="$PROJECT_DIR$/.idea/modules/Ask/LOGO.Ask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Career Predictor/LOGO.Career_Predictor.iml" filepath="$PROJECT_DIR$/.idea/modules/Career Predictor/LOGO.Career_Predictor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Career Predictor 2/LOGO.Career_Predictor_2.iml" filepath="$PROJECT_DIR$/.idea/modules/Career Predictor 2/LOGO.Career_Predictor_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Contact Us/LOGO.Contact_Us.iml" filepath="$PROJECT_DIR$/.idea/modules/Contact Us/LOGO.Contact_Us.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Feedback/LOGO.Feedback.iml" filepath="$PROJECT_DIR$/.idea/modules/Feedback/LOGO.Feedback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LOGO.Home.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LOGO.Home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LOGO.Logo.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LOGO.Logo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Refer_A_Friend/LOGO.Refer_A_Friend.iml" filepath="$PROJECT_DIR$/.idea/modules/Refer_A_Friend/LOGO.Refer_A_Friend.iml" />
+    </modules>
+  </component>
+</project>

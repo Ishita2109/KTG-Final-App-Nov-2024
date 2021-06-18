@@ -12,20 +12,20 @@
         android:theme="@style/Theme.NavigationTry"
         tools:replace="android:theme,android:label">
         <activity
-            android:name=".FAQ"
+            android:name="com.example.navigationtry.FAQ"
             android:label="Frequently Asked Questions"
             android:theme="@style/Theme.NavigationTry.NoActionBar">
 
         </activity>
         <activity
-            android:name=".Terms"
+            android:name="com.example.navigationtry.Terms"
             android:label="@string/title_activity_terms"
             android:theme="@style/Theme.NavigationTry.NoActionBar" />
         <activity
-            android:name=".Home"
+            android:name="com.example.navigationtry.Home"
             android:label="@string/app_name"
             android:theme="@style/Theme.NavigationTry.NoActionBar" />
-        <activity android:name=".LoadPage">
+        <activity android:name="com.example.navigationtry.LoadPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

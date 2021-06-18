@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ContactUs">
-        <activity android:name=".ContactUs"
+        <activity android:name="com.example.contactus.ContactUs"
             android:label="Contact Us">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

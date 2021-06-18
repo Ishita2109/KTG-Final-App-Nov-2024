@@ -1,4 +1,6 @@
 include ':Aptitude Test'
+include ':Career Predictor 2'
+include ':Refer_A_Friend'
 include ':Career Predictor'
 include ':Feedback'
 include ':Contact Us'

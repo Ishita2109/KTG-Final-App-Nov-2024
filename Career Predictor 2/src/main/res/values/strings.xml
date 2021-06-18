@@ -1,0 +1,94 @@
+<resources>
+
+
+    <string name="data">RecyclerView_22</string>
+    <string-array name="subjects2">
+        <item>Astronomer</item>
+        <item>Aerospace Engineer</item>
+        <item>Geophysicist</item>
+        <item>Banking</item>
+        <item>Agencies</item>
+        <item>Cartography</item>
+        <item>Urban And Regional Planner</item>
+        <item>Climate Change Analyst</item>
+        <item>IS Manager / It Consultant</item>
+        <item>Database Administrator</item>
+        <item>Multimedia Programmer</item>
+
+
+    </string-array>
+
+    <string name="Astronomer">
+        "~ Solid knowledge in Physics and Mathematics.\n\n"
+        "~ Must have the knowledge of computer programmes and software.\n\n"
+        "~ Should have the capacity of solving complex problems\n\n"
+        "  and conducting research work.\n"
+
+
+    </string>
+    <string name="Aerospace">
+        " ~ Strong analytical and mathematical skills\n"
+        " ~ Creativity and innovativeness in product designing\n"
+        " ~ Ability to work in a team and be able to lead a team\n"
+
+
+    </string>
+    <string name="DB_Admin">
+        " ~ Patience.\n"
+        " ~ Meticulous attention to detail.\n"
+        " ~ A logical approach to work.\n"
+
+    </string>
+    <string name="Geo_physicist">
+        " ~ Enjoy technical and engineering work.\n"
+        " ~ Alert and analytical mind.\n"
+        " ~ Enjoy applying physics and mathematics in practical ways.\n"
+    </string>
+
+    <string name="Banking">
+        " ~ Customer dealing.\n"
+        " ~ Analytical skills.\n"
+        " ~ Good knowledge of numbers and accounts.\n"
+    </string>
+
+    <string name="International">
+        " ~ Numeracy Skills\n"
+        " ~ Analytical Skills.\n"
+        " ~ Communication skills\n"
+    </string>
+
+    <string name="Cartographer">
+        " ~ A keen interest in geography and mapping.\n"
+        " ~ May require advanced skills in AutoCAD Map.\n"
+        " ~ Excellent computer and mathematical skills ."
+    </string>
+
+
+    <string name="Urban">
+        "~ Communication skills.\n"
+        "~ Decision making skills.\n"
+        "~ Leadership skills."\n
+    </string>
+
+
+    <string name="Climate">
+        "~ Able to think logically and analytically in a problem-solving environment.\n"
+        "~ Imaginative, with skills in creative reasoning.\n"
+        "~ Willing to continually update skills and knowledge"\n
+    </string>
+
+
+    <string name="It_manager">
+        " ~ Ability to troubleshoot hardware, software and network problems.\n"
+        " ~ Experience with various operating systems and databases.\n"
+        " ~ An analytical mind with problem-solving abilities.\n"
+    </string>
+
+
+    <string name="Multimedia">
+        " ~ Imagination and creativity..\n"
+        " ~ Good analytical and technical skills..\n"
+        " ~ The ability to work under pressure to meet deadlines..\n"
+     </string>
+
+</resources>

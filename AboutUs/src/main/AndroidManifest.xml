@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AboutUs">
-        <activity android:name=".AboutUs">
+        <activity android:name="com.example.aboutus.AboutUs">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

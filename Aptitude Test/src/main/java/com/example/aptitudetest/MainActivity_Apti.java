@@ -8,7 +8,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity_Apti extends AppCompatActivity {
-        Button button;
+    Button button;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,6 @@ public class MainActivity_Apti extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(getApplicationContext(), Questions.class));
                 Intent intent = new Intent(MainActivity_Apti.this, Questions.class);
                 startActivity(intent);
             }

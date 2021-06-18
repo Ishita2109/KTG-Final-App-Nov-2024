@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.career_predictor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Predictor"
+        tools:replace="android:theme">
+        <activity android:name="com.example.career_predictor.Geo_Physicist"></activity>
+        <activity android:name="com.example.career_predictor.International_Agencies" />
+        <activity android:name="com.example.career_predictor.IT_Manager" />
+        <activity android:name="com.example.career_predictor.Urban_Planning" />
+        <activity android:name="com.example.career_predictor.Aerospace" />
+        <activity android:name="com.example.career_predictor.Multimedia" />
+        <activity android:name="com.example.career_predictor.Banking" />
+        <activity android:name="com.example.career_predictor.Climate_Analyst" />
+        <activity android:name="com.example.career_predictor.DB_Administrator" />
+        <activity android:name="com.example.career_predictor.Cartographer" />
+        <activity android:name="com.example.career_predictor.Astronomer" />
+        <activity android:name="com.example.career_predictor.Second_Career" />
+        <activity android:name="com.example.career_predictor.loading_2" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

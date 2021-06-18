@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+
+
+
 import java.util.ArrayList;
 
 public class Questions extends AppCompatActivity {
@@ -29,7 +32,7 @@ public class Questions extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
-   //     getSupportActionBar().setTitle("Aptitude Test");
+//        getSupportActionBar().setTitle("Aptitude Test");
 
 
 
@@ -133,4 +136,11 @@ public class Questions extends AppCompatActivity {
 //            startActivity(intent);
         }
     }
+
+
+
+  /*  public void btn_back(View view) {
+        startActivity(new Intent(getApplicationContext(), Home.class));
+
+    }*/
 }

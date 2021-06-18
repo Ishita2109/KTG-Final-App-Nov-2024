@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LOGO</string>
+    <string name="app_name">Know To Grow</string>
     <string name="Prediction">
         "  We predict suitable career paths based on\n"
         "                     your choice of subjects.\n"
@@ -10,7 +10,8 @@
         "                  faculties and consultants.\n"
     </string>
     <string name="Aptitude">
-        "    An AI based test which lets you know about your strong area.\n"
+        "     An AI based test which lets you know\n"
+        "                  about your strong area.\n"
 
 
 

@@ -13,11 +13,11 @@ import com.example.aptitudetest.MainActivity_Apti;
 import com.example.contactus.ContactUs;
 import com.example.feed_back.Feedback_New;
 
-import com.example.predictor.Career_Predictor;
+import com.example.career_predictor.Career_Predictor;
 
 
+import com.example.referafriend.Refer;
 import com.google.android.material.navigation.NavigationView;
-import com.sujeet.chatappdesign.MainActivity;
 import com.sujeet.chatappdesign.expert;
 
 import androidx.annotation.NonNull;
@@ -83,6 +83,10 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
             Intent intent = new Intent(this, Feedback_New.class);
             startActivity(intent);
         }
+        else if (itemId == R.id.refer) {
+            Intent intent = new Intent(this, Refer.class);
+            startActivity(intent);
+        }
         return true;
     }
 
@@ -120,6 +124,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         Intent i = new Intent(this, MainActivity_Apti.class);
         startActivity(i);
     }
+
 }
 
 

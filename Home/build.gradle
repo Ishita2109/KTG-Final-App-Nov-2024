@@ -9,7 +9,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        //applicationId "com.example.navigationtry"
+       // applicationId "com.example.navigationtry"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
@@ -49,6 +49,9 @@ dependencies {
     implementation project(path: ':Feedback')
 
     implementation project(path: ':Career Predictor')
+
+    implementation project(path: ':Refer_A_Friend')
+    implementation project(path: ':Career Predictor 2')
     implementation project(path: ':Aptitude Test')
 
     testImplementation 'junit:junit:4.+'

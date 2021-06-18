@@ -4,20 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity_Apti">
+    tools:context=".Questions">
 
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="217dp"
+        android:layout_width="333dp"
+        android:layout_height="265dp"
+        android:layout_marginTop="44dp"
         android:padding="1dp"
-        android:src="@drawable/brain"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        android:src="@drawable/apt_without_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.395"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -36,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.753"
+        app:layout_constraintVertical_bias="0.696"
         tools:ignore="MissingConstraints" />
 
     <TextView
