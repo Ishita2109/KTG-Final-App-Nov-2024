@@ -20,13 +20,7 @@
         android:textColor="@color/white"
         android:textSize="24dp" />
 
-    <TextView
-        android:layout_width="227dp"
-        android:layout_height="wrap_content"
-        android:text="ishitachandra121@yahoo.com"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="16dp" />
+
 
 
 

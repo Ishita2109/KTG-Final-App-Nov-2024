@@ -72,15 +72,11 @@ public class Walk extends AppCompatActivity {
         itemPredictor.setImage(R.drawable.pd);
 
 
-        OnboardingItem itemAskTheExpert = new OnboardingItem();
-        itemAskTheExpert.setTitle("               Ask The Expert");
-        itemAskTheExpert.setDescrption(getString(R.string.AskExpert));
-        itemAskTheExpert.setImage(R.drawable.p2);
+
 
 
         onboardingItems.add(itemAptitudeTest);
         onboardingItems.add(itemPredictor);
-        onboardingItems.add(itemAskTheExpert);
 
         onboardingAdapter = new OnboardingAdapter(onboardingItems);
 

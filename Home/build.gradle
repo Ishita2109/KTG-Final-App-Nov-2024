@@ -42,17 +42,17 @@ dependencies {
     implementation 'me.biubiubiu.justifytext:library:1.1'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
 
-    implementation project(path: ':Ask')
     implementation project(path: ':AboutUs')
     implementation project(path: ':Contact Us')
 
     implementation project(path: ':Feedback')
 
-    implementation project(path: ':Career Predictor')
 
     implementation project(path: ':Refer_A_Friend')
-    implementation project(path: ':Career Predictor 2')
-    implementation project(path: ':Aptitude Test')
+    implementation project(path: ':Fuzzy')
+    implementation 'androidx.annotation:annotation:1.1.0'
+
+
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

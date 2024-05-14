@@ -8,8 +8,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LOGO"
         tools:replace="android:theme">
-        <activity android:name="com.example.logo.AdminChatSimran"></activity>
-        <activity android:name="com.example.logo.AdminChat"></activity>
         <activity android:name="com.example.logo.Admin" />
         <activity android:name="com.example.logo.Signup_form" />
         <activity android:name="com.example.logo.login_form" />

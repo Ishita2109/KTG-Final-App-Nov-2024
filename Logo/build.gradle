@@ -38,10 +38,7 @@ dependencies {
     implementation project(path: ':Home')
     implementation project(path: ':AboutUs')
     implementation project(path: ':Contact Us')
-    implementation project(path: ':Ask')
-
-
-
+//    implementation project(path: ':Rec')
 
 
     testImplementation 'junit:junit:4.+'

@@ -1,5 +1,6 @@
 package com.example.navigationtry;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -13,12 +14,14 @@ import com.example.aptitudetest.MainActivity_Apti;
 import com.example.contactus.ContactUs;
 import com.example.feed_back.Feedback_New;
 
-import com.example.career_predictor.Career_Predictor;
 
 
+
+//import com.example.mytaskrebuild.MainActivity;
+//import com.example.myapplication.MainActivity;
 import com.example.referafriend.Refer;
 import com.google.android.material.navigation.NavigationView;
-import com.sujeet.chatappdesign.expert;
+
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -109,19 +112,13 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         startActivity(i);
    }
 
-    public void btn_ask(View view) {
-        Intent i = new Intent(this, expert.class);
-        startActivity(i);
-
-    }
-
     public void btn_career(View view) {
-        Intent i = new Intent(this, Career_Predictor.class);
-        startActivity(i);
+    Intent i = new Intent(this, MainActivity.class);
+    startActivity(i);
     }
 
-    public void btn_apti(View view) {
-        Intent i = new Intent(this, MainActivity_Apti.class);
+   public void btn_apti(View view) {
+        Intent i = new Intent(this, FAQ.class);
         startActivity(i);
     }
 

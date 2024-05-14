@@ -112,13 +112,10 @@
     <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: me.biubiubiu.justifytext:library:1.1@aar" level="project" />
-    <orderEntry type="module" module-name="LOGO.Ask" />
     <orderEntry type="module" module-name="LOGO.AboutUs" />
     <orderEntry type="module" module-name="LOGO.Contact_Us" />
     <orderEntry type="module" module-name="LOGO.Feedback" />
-    <orderEntry type="module" module-name="LOGO.Career_Predictor" />
     <orderEntry type="module" module-name="LOGO.Refer_A_Friend" />
-    <orderEntry type="module" module-name="LOGO.Career_Predictor_2" />
-    <orderEntry type="module" module-name="LOGO.Aptitude_Test" />
+    <orderEntry type="module" module-name="LOGO.Fuzzy" />
   </component>
 </module>

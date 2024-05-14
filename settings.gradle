@@ -1,11 +1,8 @@
-include ':Aptitude Test'
-include ':Career Predictor 2'
+include ':Fuzzy'
 include ':Refer_A_Friend'
-include ':Career Predictor'
 include ':Feedback'
 include ':Contact Us'
 include ':AboutUs'
-include ':Ask'
 include ':Home'
 include ':Logo'
 rootProject.name = "LOGO"

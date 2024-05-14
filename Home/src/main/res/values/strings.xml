@@ -45,7 +45,7 @@
 <b> "Q: Do you provide college admission/ job recruitment
         assistance?</b> \n"
         "No."
-
+<!--
 <b> "Q:	Are your Counsellors professionally skilled?</b> \n"
        "All our counsellors are professionally skilled. Many are"
        "from the psychology background having sound"
@@ -153,7 +153,14 @@
      "careers in report is negligible in automated report"
      "compared to paper-based tests. Moreover, the online"
      "test and automated report is far more cost effective"
-     "and less time consuming with much better results."
+     "and less time consuming with much better results."-->
     </string>
-    
+
+
+    <string name="title_activity_main2">MainActivity2</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
 </resources>
