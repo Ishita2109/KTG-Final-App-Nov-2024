@@ -118,7 +118,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
     }
 
    public void btn_apti(View view) {
-        Intent i = new Intent(this, FAQ.class);
+        Intent i = new Intent(this, MainActivity_Apti.class);
         startActivity(i);
     }
 

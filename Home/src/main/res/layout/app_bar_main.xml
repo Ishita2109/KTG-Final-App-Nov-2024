@@ -11,6 +11,6 @@
         android:layout_height="wrap_content"
         android:theme="@style/Theme.NavigationTry.AppBarOverlay"/>
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/homepage" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

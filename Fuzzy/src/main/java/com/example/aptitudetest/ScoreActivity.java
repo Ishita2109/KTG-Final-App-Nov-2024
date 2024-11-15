@@ -43,7 +43,7 @@ public class ScoreActivity extends AppCompatActivity implements MyRecyclerViewAd
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
-//        getSupportActionBar().setTitle("Your Interest Score");
+
         TextView resultContent = (TextView) findViewById(R.id.resultContent);
         recyclerView = findViewById(R.id.recycler);
         recyclerView.setItemViewCacheSize(14);

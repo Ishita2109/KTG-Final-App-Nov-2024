@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager2.widget.ViewPager2;
 
+import com.example.navigationtry.Home;
 import com.google.android.material.button.MaterialButton;
 
 import java.util.ArrayList;
@@ -51,7 +52,7 @@ public class Walk extends AppCompatActivity {
                 if (onboardingViewPager.getCurrentItem() + 1 <onboardingAdapter.getItemCount()){
                     onboardingViewPager.setCurrentItem(onboardingViewPager.getCurrentItem() + 1);
                 } else {
-                    startActivity(new Intent(getApplicationContext(), login_form.class));
+                    startActivity(new Intent(getApplicationContext(), Home.class));
                     finish();
                 }
 

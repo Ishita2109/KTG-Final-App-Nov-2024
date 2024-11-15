@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txt"
+        android:layout_height="wrap_content"
+        android:text="Select Any Four Subjects"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_margin="4dp"
+        android:gravity="center">
+
+    </TextView>
+
+<Spinner
+    android:layout_width="match_parent"
+    android:id="@+id/spinner_course_1"
+    android:layout_margin="4dp"
+    android:padding="6dp"
+    android:spinnerMode="dropdown"
+    android:layout_height="wrap_content">
+
+</Spinner>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/spinner_course_2"
+        android:layout_margin="4dp"
+        android:padding="6dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/spinner_course_3"
+        android:layout_margin="4dp"
+        android:padding="6dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/spinner_course_4"
+        android:layout_margin="4dp"
+        android:padding="6dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="100dp"
+        android:id="@+id/btn_Submit"
+        android:layout_height="wrap_content"
+        android:text="Submit">
+
+    </Button>
+</LinearLayout>

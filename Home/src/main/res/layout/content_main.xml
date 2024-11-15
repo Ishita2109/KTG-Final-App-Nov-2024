@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:id="@+id/drawerlayout"
+
 
     tools:context=".Home"
     android:fitsSystemWindows="true">
@@ -41,7 +41,22 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FFFFFF">
+                android:background="#F2F2F2">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APTITUDE TEST"
+                    android:textColor="#FF6200EE"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.098"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.328" />
 
                 <TextView
                     android:id="@+id/textView3"
@@ -53,10 +68,10 @@
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.089"
+                    app:layout_constraintHorizontal_bias="0.083"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.457" />
+                    app:layout_constraintVertical_bias="0.52" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -77,36 +92,47 @@
                     android:id="@+id/imageButton6"
                     android:layout_width="360dp"
                     android:layout_height="86dp"
-                    android:onClick="btn_apti"
+
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.47"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.332"
-                    app:srcCompat="@drawable/button1"
+                    app:layout_constraintVertical_bias="0.417"
+                    app:srcCompat="@drawable/aptitudebox"
 
                     />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="107dp"
+                    android:layout_height="98dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.947"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.407"
+                    app:srcCompat="@drawable/aptitude_test_removebg_preview" />
 
                 <ImageButton
                     android:id="@+id/imageButton7"
                     android:layout_width="360dp"
                     android:layout_height="86dp"
-                    android:onClick="btn_career"
+
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.509"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.548"
-                    app:srcCompat="@drawable/button2"
-                    />
+                    app:layout_constraintVertical_bias="0.608"
+                    app:srcCompat="@drawable/button2" />
 
                 <ImageButton
                     android:id="@+id/imageButton"
                     android:layout_width="360dp"
                     android:layout_height="84dp"
-                    android:onClick="btn_faq"
+
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.509"
@@ -121,10 +147,10 @@
                     android:layout_height="64dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.097"
+                    app:layout_constraintHorizontal_bias="0.124"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.545"
+                    app:layout_constraintVertical_bias="0.602"
                     app:srcCompat="@drawable/predictor_removebg_preview" />
 
                 <ImageView
@@ -184,7 +210,7 @@
                     app:layout_constraintHorizontal_bias="0.718"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.524" />
+                    app:layout_constraintVertical_bias="0.58" />
 
                 <TextView
                     android:id="@+id/textView11"
@@ -196,28 +222,91 @@
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.683"
+                    app:layout_constraintHorizontal_bias="0.687"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.557" />
+                    app:layout_constraintVertical_bias="0.624" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Best Fit"
+                    android:textColor="#FF6200EE"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.369"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.443" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="126dp"
+                    android:layout_height="27dp"
+                    android:text="AI Based Analysis"
+                    android:textColor="#FF6200EE"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.308"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.384" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Career Options That Are Your"
+                    android:textColor="#FF6200EE"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.272"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.414" />
 
                 <ImageView
                     android:id="@+id/imageView6"
-                    android:layout_width="433dp"
-                    android:layout_height="163dp"
-
+                    android:layout_width="740dp"
+                    android:layout_height="216dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.555"
+                    app:layout_constraintHorizontal_bias="0.528"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
-                    app:srcCompat="@drawable/t7" />
+                    app:srcCompat="@drawable/homepagetop" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="259dp"
+                    android:layout_height="87dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="136dp"
+                    android:layout_marginBottom="647dp"
+                    android:text="We think one step forward for you"
+                    android:textColor="#FFFFFF"
+                    android:textSize="27sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="151dp"
-                    android:layout_height="115dp"
+                    android:layout_width="150dp"
+                    android:layout_height="136dp"
                     android:layout_marginStart="249dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="11dp"
@@ -227,6 +316,22 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/lp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="207dp"
+                    android:layout_height="53dp"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="Get a broader outlook and walk along the paths of careers which you prefer with customized AI analysis."
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.078"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.137" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
